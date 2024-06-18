@@ -1,8 +1,7 @@
 from typing import Optional
 
 import yaml
-
-from src.const.types import YamlContent, YamlContentDict
+from wexample_helpers_yaml.const.types import YamlContent, YamlContentDict
 
 
 def yaml_load(

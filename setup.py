@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
 setup(
-    name='helpers-yaml',
+    name='wexample-helpers-yaml',
     version=open('version.txt').read(),
     author='weeger',
     author_email='contact@wexample.com',
@@ -16,7 +16,8 @@ setup(
         'Operating System :: OS Independent',
     ],
     install_requires=[
-        'pyyaml'
+        'pyyaml',
+        'wexample-helpers'
     ],
     python_requires='>=3.6',
 )
