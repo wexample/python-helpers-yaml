@@ -4,7 +4,7 @@ import yaml
 from wexample_helpers_yaml.const.types import YamlContent, YamlContentDict
 
 
-def yaml_load(
+def yaml_read(
     file_path: str, default: Optional[YamlContent] = None
 ) -> Optional[YamlContent]:
     try:
@@ -19,10 +19,10 @@ def yaml_load(
         return default
 
 
-def yaml_load_dict(
+def yaml_read_dict(
     file_path: str, default: Optional[YamlContentDict] = None
 ) -> YamlContentDict:
-    content = yaml_load(file_path, default)
+    content = yaml_read(file_path, default)
 
     if not content:
         return default or {}
