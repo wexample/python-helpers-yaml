@@ -17,7 +17,8 @@ setup(
     ],
     install_requires=[
         'pyyaml',
-        'wexample-helpers'
+        'pydantic',
+        'wexample-helpers',
     ],
     python_requires='>=3.6',
 )
