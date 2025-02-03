@@ -2,7 +2,7 @@
 
 Helpers for reading yaml files.
 
-Version: 0.0.21
+Version: 0.0.24
 
 ## Requirements
 
@@ -14,7 +14,7 @@ Version: 0.0.21
 - pydantic
 - pytest
 - pyyaml
-- wexample-helpers==0.0.22
+- wexample-helpers==0.0.25
 
 ## Installation
 
