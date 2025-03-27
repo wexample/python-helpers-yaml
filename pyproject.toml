@@ -23,7 +23,7 @@ dependencies = [
     "pydantic",
     "pytest",
     "pyyaml",
-    "wexample-helpers==0.0.30",
+    "wexample-helpers==0.0.31",
 ]
 
 [project.readme]
