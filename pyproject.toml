@@ -7,7 +7,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "wexample-helpers-yaml"
-version = "0.0.55"
+version = "0.0.56"
 description = "Helpers for reading yaml files."
 authors = [
     { name = "weeger", email = "contact@wexample.com" },
@@ -23,7 +23,7 @@ dependencies = [
     "pydantic",
     "pytest",
     "pyyaml",
-    "wexample-helpers==0.0.55",
+    "wexample-helpers==0.0.56",
 ]
 
 [project.readme]
