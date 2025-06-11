@@ -2,4 +2,4 @@ pip-tools
 pydantic
 pytest
 pyyaml
-wexample-helpers==0.0.57
+wexample-helpers==0.0.59
