@@ -1,4 +1,6 @@
-from wexample_helpers.const.types import BasicValue, StringKeysDict
+from typing import TypeAlias
 
-YamlContent = BasicValue
+from wexample_helpers.const.types import StructuredData, StringKeysDict
+
+YamlContent: TypeAlias = StructuredData
 YamlContentDict = StringKeysDict
