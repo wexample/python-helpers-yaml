@@ -1,3 +1,5 @@
+from __future__ import annotations
+
 import yaml
 from wexample_helpers_yaml.const.types import YamlContent, YamlContentDict
 
