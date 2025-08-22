@@ -4,9 +4,7 @@ import yaml
 from wexample_helpers_yaml.const.types import YamlContent, YamlContentDict
 
 
-def yaml_read(
-    file_path: str, default: YamlContent | None = None
-) -> YamlContent | None:
+def yaml_read(file_path: str, default: YamlContent | None = None) -> YamlContent | None:
     try:
         with open(file_path) as f:
             content = yaml.safe_load(f)
