@@ -5,10 +5,10 @@ from wexample_helpers_yaml.const.types import YamlContent, YamlContentDict
 
 
 def yaml_read(
-    file_path: str, default: Optional[YamlContent] = None
-) -> Optional[YamlContent]:
+    file_path: str, default: YamlContent | None = None
+) -> YamlContent | None:
     try:
-        with open(file_path, "r") as f:
+        with open(file_path) as f:
             content = yaml.safe_load(f)
 
             if isinstance(content, dict):
@@ -20,7 +20,7 @@ def yaml_read(
 
 
 def yaml_read_dict(
-    file_path: str, default: Optional[YamlContentDict] = None
+    file_path: str, default: YamlContentDict | None = None
 ) -> YamlContentDict:
     content = yaml_read(file_path, default)
 
