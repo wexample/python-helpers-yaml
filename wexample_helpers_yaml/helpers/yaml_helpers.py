@@ -1,4 +1,3 @@
-from typing import Optional
 
 import yaml
 from wexample_helpers_yaml.const.types import YamlContent, YamlContentDict
