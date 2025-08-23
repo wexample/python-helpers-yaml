@@ -21,7 +21,6 @@ classifiers = [
 dependencies = [
     "pip-tools",
     "pydantic",
-    "pytest",
     "pyyaml",
     "wexample-helpers",
 ]
@@ -35,3 +34,6 @@ text = "MIT"
 
 [project.urls]
 homepage = "https://github.com/wexample/python-helpers-yaml"
+
+[project.optional-dependencies]
+dev = ["pytest"]
