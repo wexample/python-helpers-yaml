@@ -1,20 +1,18 @@
-# Helpers Yaml
+# wexample-helpers-yaml
 
 Helpers for reading yaml files.
 
-Version: 0.0.29
+Version: 0.0.64
 
 ## Requirements
 
-- Python >=3.6
+- Python >=3.10
 
 ## Dependencies
 
-- pip-tools
-- pydantic
-- pytest
+- pydantic>=2,<3
 - pyyaml
-- wexample-helpers==0.0.30
+- wexample-helpers==0.0.64
 
 ## Installation
 
