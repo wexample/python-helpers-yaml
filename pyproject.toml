@@ -32,10 +32,14 @@ text = "MIT"
 homepage = "https://github.com/wexample/python-helpers-yaml"
 
 [project.optional-dependencies]
-dev = ["pytest"]
+dev = [
+    "pytest",
+]
 
 [tool.pdm.build]
-includes = ["src/wexample_helpers_yaml/py.typed"]
+includes = [
+    "src/wexample_helpers_yaml/py.typed",
+]
 package-dir = "src"
 
 [[tool.pdm.build.packages]]
