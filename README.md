@@ -12,7 +12,7 @@ Version: 0.0.65
 
 - pydantic>=2,<3
 - pyyaml
-- wexample-helpers==0.0.64
+- wexample-helpers==0.0.65
 
 ## Installation
 
