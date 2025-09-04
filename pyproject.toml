@@ -4,7 +4,7 @@ build-backend = "pdm.backend"
 
 [project]
 name = "wexample-helpers-yaml"
-version = "0.0.66"
+version = "0.0.67"
 description = "Helpers for reading yaml files."
 authors = [
     { name = "weeger", email = "contact@wexample.com" },
@@ -18,7 +18,7 @@ classifiers = [
 dependencies = [
     "pydantic>=2,<3",
     "pyyaml",
-    "wexample-helpers==0.0.66",
+    "wexample-helpers==0.0.67",
 ]
 
 [project.readme]
