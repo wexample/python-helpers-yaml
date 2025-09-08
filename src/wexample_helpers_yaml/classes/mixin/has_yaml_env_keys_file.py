@@ -5,7 +5,6 @@ from wexample_helpers.classes.mixin.has_env_keys_file import HasEnvKeysFile
 
 class HasYamlEnvKeysFile(HasEnvKeysFile):
     """Mixin for classes that need to load env from files."""
-
     def _init_env_file_yaml(self, file_path: str) -> None:
         from wexample_helpers_yaml.helpers.yaml_helpers import yaml_read_dict
 
