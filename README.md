@@ -12,7 +12,6 @@ Version: 0.0.67
 
 - attrs>=23.1.0
 - cattrs>=23.1.0
-- pydantic>=2,<3
 - pyyaml
 - wexample-helpers==0.0.67
 
