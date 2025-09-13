@@ -2,7 +2,7 @@
 
 Helpers for reading yaml files.
 
-Version: 0.0.67
+Version: 0.0.68
 
 ## Requirements
 
@@ -13,7 +13,7 @@ Version: 0.0.67
 - attrs>=23.1.0
 - cattrs>=23.1.0
 - pyyaml
-- wexample-helpers==0.0.67
+- wexample-helpers==0.0.68
 
 ## Installation
 
