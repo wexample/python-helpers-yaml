@@ -10,7 +10,9 @@ if TYPE_CHECKING:
     from wexample_helpers_yaml.const.types import YamlContent, YamlContentDict
 
 
-def yaml_read(file_path: PathOrString, default: YamlContent | None = None) -> YamlContent | None:
+def yaml_read(
+    file_path: PathOrString, default: YamlContent | None = None
+) -> YamlContent | None:
     try:
         with open(file_path) as f:
             content = yaml.safe_load(f)
@@ -24,7 +26,7 @@ def yaml_read(file_path: PathOrString, default: YamlContent | None = None) -> Ya
 
 
 def yaml_read_dict(
-        file_path: PathOrString, default: YamlContentDict | None = None
+    file_path: PathOrString, default: YamlContentDict | None = None
 ) -> YamlContentDict:
     content = yaml_read(file_path, default)
 
