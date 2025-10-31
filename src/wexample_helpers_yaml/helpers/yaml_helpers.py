@@ -42,7 +42,7 @@ def yaml_write(file_path: PathOrString, content: YamlContent) -> None:
         yaml.safe_dump(content, f)
 
 
-def yaml_fill_unresolved_vars(yml_text: str, fill_value: Optional[str] = "") -> str:
+def yaml_fill_unresolved_vars(yml_text: str, fill_value: str | None = "") -> str:
     import re
 
     """
