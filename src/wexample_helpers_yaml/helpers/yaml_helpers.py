@@ -44,6 +44,7 @@ def yaml_write(file_path: PathOrString, content: YamlContent) -> None:
 
 def yaml_fill_unresolved_vars(yml_text: str, fill_value: Optional[str] = "") -> str:
     import re
+
     """
     Replace unresolved variable placeholders of the form ${VAR_NAME}
     in a YAML string with a specified fallback value (empty string by default).
