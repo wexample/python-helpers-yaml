@@ -1,6 +1,6 @@
 from __future__ import annotations
 
-from typing import TYPE_CHECKING, Optional
+from typing import TYPE_CHECKING
 
 import yaml
 from wexample_helpers.const.types import PathOrString
@@ -20,7 +20,7 @@ def yaml_fill_unresolved_vars(yml_text: str, fill_value: str | None = "") -> str
     unresolved_pattern = re.compile(r"\$\{([^}]+)\}")
 
     def replacer(match: re.Match) -> str:
-        var_name = match.group(1)
+        match.group(1)
         # Optionally, log or collect missing variables here
         return str(fill_value)
 
