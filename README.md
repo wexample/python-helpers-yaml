@@ -1,6 +1,6 @@
 # wexample-helpers-yaml
 
-Version: 0.0.106
+Version: 0.0.108
 
 Helpers for reading yaml files.
 
