@@ -1,6 +1,6 @@
 # wexample-helpers-yaml
 
-Version: 0.0.112
+Version: 0.0.113
 
 Helpers for reading yaml files.
 
@@ -209,7 +209,7 @@ Refer to each package's documentation for specific version compatibility require
 - attrs: >=23.1.0
 - cattrs: >=23.1.0
 - pyyaml: 
-- wexample-helpers: ==0.0.87
+- wexample-helpers: ==0.0.88
 
 
 # About us
