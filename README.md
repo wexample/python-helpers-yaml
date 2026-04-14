@@ -1,6 +1,6 @@
 # helpers_yaml
 
-Version: 0.0.115
+Version: 0.0.116
 
 Helpers for reading yaml files.
 
@@ -82,7 +82,7 @@ Visit the [Wexample Suite documentation](https://docs.wexample.com) for the comp
 - attrs: >=23.1.0
 - cattrs: >=23.1.0
 - pyyaml: 
-- wexample-helpers: >=0.7.0
+- wexample-helpers: >=1.0.0
 
 ## Versioning & Compatibility Policy
 
