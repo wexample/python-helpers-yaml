@@ -4,4 +4,4 @@ domains: []
 global:
   name: helpers_yaml
   type: app
-  version: 6.0.24
+  version: 6.0.28
