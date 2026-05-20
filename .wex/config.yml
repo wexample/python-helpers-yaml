@@ -4,6 +4,6 @@ domains: []
 global:
   name: helpers_yaml
   type: app
-  version: 6.0.33
+  version: 6.0.34
 wex:
   version: 6.0.28
