@@ -1,6 +1,6 @@
 # helpers_yaml
 
-Version: 6.0.30
+Version: 6.0.32
 
 Helpers for reading yaml files.
 
