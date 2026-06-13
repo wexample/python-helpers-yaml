@@ -20,8 +20,6 @@ def yaml_fill_unresolved_vars(yml_text: str, fill_value: str | None = "") -> str
     unresolved_pattern = re.compile(r"\$\{([^}]+)\}")
 
     def replacer(match: re.Match) -> str:
-        match.group(1)
-        # Optionally, log or collect missing variables here
         return str(fill_value)
 
     return unresolved_pattern.sub(replacer, yml_text)
