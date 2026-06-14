@@ -1,0 +1,11 @@
+{
+  "engram_version": 1,
+  "source_key": "src/wexample_helpers_yaml/helpers/yaml_helpers.py",
+  "cache_nonce": "1c2800147ebc4367950bb7b61bd21d00",
+  "last_visited_at": "2026-06-14T19:30:49+00:00",
+  "last_rev": "fef62d4d26b37fca19b5cda0530ce1911f544424",
+  "last_decision": "edit",
+  "kinds": [],
+  "notes": "hoist re.compile out of yaml_fill_unresolved_vars hot path; fix misplaced import/docstring; precompute fill_str outside match loop",
+  "in_progress": null
+}

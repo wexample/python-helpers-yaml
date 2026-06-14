@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import re
 from typing import TYPE_CHECKING
 
 import yaml
@@ -8,21 +9,17 @@ from wexample_helpers.const.types import PathOrString
 if TYPE_CHECKING:
     from wexample_helpers_yaml.const.types import YamlContent, YamlContentDict
 
+# Compiled once at import time; matches ${VAR} placeholders without nested braces.
+_UNRESOLVED_VAR_RE = re.compile(r"\$\{([^}]+)\}")
+
 
 def yaml_fill_unresolved_vars(yml_text: str, fill_value: str | None = "") -> str:
-    import re
-
     """
     Replace unresolved variable placeholders of the form ${VAR_NAME}
     in a YAML string with a specified fallback value (empty string by default).
     """
-    # Pattern to match ${VAR} placeholders without nested braces
-    unresolved_pattern = re.compile(r"\$\{([^}]+)\}")
-
-    def replacer(match: re.Match) -> str:
-        return str(fill_value)
-
-    return unresolved_pattern.sub(replacer, yml_text)
+    fill_str = str(fill_value)
+    return _UNRESOLVED_VAR_RE.sub(lambda _: fill_str, yml_text)
 
 
 def yaml_read(
