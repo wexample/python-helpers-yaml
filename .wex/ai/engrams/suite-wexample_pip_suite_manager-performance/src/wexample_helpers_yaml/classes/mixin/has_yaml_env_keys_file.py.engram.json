@@ -1,0 +1,11 @@
+{
+  "engram_version": 1,
+  "source_key": "src/wexample_helpers_yaml/classes/mixin/has_yaml_env_keys_file.py",
+  "cache_nonce": "1c2800147ebc4367950bb7b61bd21d00",
+  "last_visited_at": "2026-06-14T19:29:47+00:00",
+  "last_rev": "d1e3004f8e9884e54dd6baec07958406bbbcda8f",
+  "last_decision": "skip",
+  "kinds": [],
+  "notes": "single init method, not a hot path; lazy import has no circular-import risk but saving ~100 ns on a one-shot setup call is immaterial",
+  "in_progress": null
+}
