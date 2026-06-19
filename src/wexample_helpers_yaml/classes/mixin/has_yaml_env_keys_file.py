@@ -13,7 +13,7 @@ class HasYamlEnvKeysFile(HasEnvKeysFile):
         # os.environ is an explicit, opt-in concern handled by callers that
         # actually need it (e.g. wex-core kernel's _init_local_env), so this
         # mixin can be used safely with files that contain nested structures.
-        from wexample_helpers_yaml.helpers.yaml_helpers import yaml_read_dict
+        from wexample_helpers_yaml.helper.yaml_helpers import yaml_read_dict
 
         self.env_config.update(yaml_read_dict(file_path))
         self._validate_env_keys()
